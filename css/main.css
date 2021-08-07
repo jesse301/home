@@ -1,0 +1,65 @@
+.h1 {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: white;
+  }
+  
+  .s1 {
+    background-color: #DF5B55;
+    background-size: cover;
+  }
+  
+  .s1 h1 {
+    text-align: center;
+    color: white;
+    font-weight: normal;
+  }
+  
+  .s2 {
+    background-color: #EB9970;
+    background-size: cover;
+  }
+  
+  .s2 h1 {
+    text-align: center;
+    color: white;
+    font-weight: normal;
+  }
+  
+  .s3 {
+    background-color: #EEAA88;
+    background-size: cover;
+  }
+  
+  .s3 h1 {
+    text-align: center;
+    color: white;
+    font-weight: normal;
+  }
+  
+  .s4 {
+    background-color: #F6C28B;
+    background-size: cover;
+  }
+  
+  .s4 h1 {
+    text-align: center;
+    color: white;
+    font-weight: normal;
+  }
+  
+  .s5 {
+    background-color: #FCD7AD;
+    background-size: cover;
+  }
+  
+  .s5 h1 {
+    text-align: center;
+    color: white;
+    font-weight: normal;
+  }
+  
+  span {
+    background: white !important;
+  }
+  /*# sourceMappingURL=main.css.map */
