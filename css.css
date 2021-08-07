@@ -13,3 +13,7 @@ a {
 }
 
 body {background-color: #DF5B55;}
+
+.container2 {
+	position: absolute;
+}
