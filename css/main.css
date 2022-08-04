@@ -1,33 +1,82 @@
-.h1 {
+@media only screen and (max-width: 768px) {
+  .clearfix {
+    flex-flow: column;
+  }
+  .clearfix > div {
+    order: 1;
+  }
+  .clearfix > div:first-child {
+    order: 2;
+  }
+}
+
+.s1 h1 {
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
     color: white;
   }
+
+  .s1 h2 {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 8;
+    font-weight: normal;
+    color: white;
+  }
   
   .s1 {
-    background-color: #ed2410;
-    background-size: cover;
-  }
-  
-  .s1 h1 {
-    text-align: center;
-    color: white;
-    font-weight: normal;
-  }
-  
-  .s2 {
     background-color: #7b66db;
     background-size: cover;
   }
   
-  .s2 h1 {
+  .s2 {
+    background-color: #89CFF0;
+    background-size: cover;
+  }
+
+  .s1 h1 {
     text-align: center;
     color: white;
     font-weight: normal;
+    font-size: 8;
   }
   
+  .s2 h1 {
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 15;
+    margin: 0px 100px 0px 0px;
+    text-align: left;
+    font-weight: bold;
+  }
+
+  .s2 h2 {
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    text-align: left;
+    margin: 0;
+    position: absolute;
+    margin: 0px 10% 0px 50%;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);  
+    font-size: 8;
+    font-weight: normal;
+  }
+  
+  .s2 image{
+    padding-left:1100px;
+    text-align: right;
+    position: absolute;
+    right: 50px;
+    top: 10px;
+    width: auto;
+    height: auto;
+    }
+
+
   .s3 {
-    background-color: #29584a;
+    background-color: #ed2410;
     background-size: cover;
   }
   
@@ -35,6 +84,7 @@
     text-align: center;
     color: white;
     font-weight: normal;
+    font-size: 8;
   }
   
   .s4 {
@@ -48,16 +98,27 @@
     font-weight: normal;
   }
   
-  .s5 {
+  .s6 {
     background-color: #FCD7AD;
     background-size: cover;
   }
   
-  .s5 h1 {
+  .s6 h1 {
     text-align: center;
     color: white;
     font-weight: normal;
   }
+
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  h1, h2, h3 {
+    margin: 10px;
+   }
   
   span {
     background: white !important;
