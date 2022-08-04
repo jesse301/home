@@ -10,43 +10,71 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.min.css" integrity="sha512-4rPgyv5iG0PZw8E+oRdfN/Gq+yilzt9rQ8Yci2jJ15rAyBmF0HBE4wFjBkoB72cxBeg63uobaj1UcNt/scV93w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/main.css">
     <link rel="icon" type="image/png" href="j.png"/>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .imgbox {
+            display: grid;
+            height: 100%;
+        }
+        .center-fit {
+            max-width: 100vh;
+            max-height: 100vh;
+            margin-left: 13%;
+            align:left:
+        }
+    </style>
 </head>
+
 <body>
-    <div id="fullPage">
-
-        <div class="section s1">
-            <h1>Hello.</h1>
-        </div>
-
-        <div class="section s2">
-            <h1>
-                <a href="https://www.instagram.com/jesselouieding/"target="_blank">
-                    <img src="insta.png"
-                    width="50" height="50"></a>
-                <a href="mailto:j@jesseding.com">
-                    <img src="mail.png"
-                    width="50" height="50"></a>
-                <a href="https://www.linkedin.com/in/jesseding/"target="_blank">
-                        <img src="link.png"
-                        width="50" height="50"></a>
-                </h1>
-        </div>
-
-            <div class="section s3">
-                <h1>Jesse Ding</h1>
-
-            </div>
-
+<div id="fullPage">
+    <div class="section s1">
+        <h1>Welcome</h1>
+        <h2>Let me tell you a little bit about myself</h2>
     </div>
+
+    <div class="section s2">
+        <div class="imgbox">
+        <img class="center-fit" src="portrait.png"
+            align="left">
+            </div>
+        <h2>
+            <br><b>My name is Jesse Ding. </b>
+        </br>
+        I'm currently a senior at Stuyvesant High School in New York City. I love to run, write, compose songs on the piano, solve Rubik's Cubes, trade stocks, and generally just love learning new things. 
+        My passion for business and finance led me to create my own company during my sophomore year of high school. Having been born in Mount Pleasant, a small suburban town in Charleston, South Carolina, 
+        I understood what it felt like to have a lack of opportunities growing up. With that, through the help of my company, I help other businesses adopt sustainable and ethical managerial practices: 
+        setting a precedent for business owners to positively impact our society by increasing the public's access to professional services. 
+        </h2>
+    </div>
+
+    <div class="section s3">
+        <h1>
+            <a href="https://www.instagram.com/jesselouieding/"target="_blank">
+                <img src="insta.png"
+                width="50" height="50"></a>
+            <a href="mailto:j@jesseding.com">
+                <img src="mail.png"
+                 width="50" height="50"></a>
+            <a href="https://www.linkedin.com/in/jesseding/"target="_blank">
+                <img src="link.png"
+                width="50" height="50"></a>
+        </h1>
+    </div>
+
+    <div class="section s4">
+        <h1> Thanks for Vising</h1>
+
+</div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.min.js" integrity="sha512-gSf3NCgs6wWEdztl1e6vUqtRP884ONnCNzCpomdoQ0xXsk06lrxJsR7jX5yM/qAGkPGsps+4bLV5IEjhOZX+gg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     </script>
-    
     <script>
-
         new fullpage('#fullPage', {
             autoScrolling: false, 
-            navigation: false
+            navigation: true
         })
     </script>
 
